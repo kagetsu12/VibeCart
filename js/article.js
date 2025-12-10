@@ -93,7 +93,8 @@ function displayRecommendedProducts(products) {
         productCard.innerHTML = `
             <img src="${product.image}" alt="${product.name}" class="product-image" onerror="this.style.background='linear-gradient(135deg, #e0f2fe 0%, #f0e6ff 100%)'">
             <h3 class="product-name">${product.name}</h3>
-            <p class="product-price">${product.price}</p>
+            ${product.price ? `<p class="product-price">${product.price}</p>` : ''}
+            ${product.description ? `<p class="product-description">${product.description}</p>` : ''}
         `;
         
         productsGrid.appendChild(productCard);

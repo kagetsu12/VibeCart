@@ -1,6 +1,58 @@
 // Articles Data
 const articles = [
     {
+        id: 6,
+        title: "Glow From Within: Skincare Routines for Radiant Skin",
+        excerpt: "Discover the ultimate skincare routine that unlocks your natural radiance. From morning rituals to evening treatments, learn how to achieve that coveted glow from within.",
+        category: "health",
+        categoryName: "Health & Beauty",
+        date: "October 2, 2024",
+        image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop",
+        content: `
+            <p>Radiant, glowing skin isn't just about genetics—it's about creating a consistent, thoughtful skincare routine that works with your skin's natural processes. Achieving that coveted "glow from within" requires understanding your skin type, choosing the right products, and maintaining a routine that nourishes your complexion from the inside out.</p>
+            
+            <p>The journey to radiant skin begins with understanding that true glow comes from healthy, well-hydrated, and properly cared-for skin. It's not about masking imperfections but about creating an environment where your skin can thrive. This means focusing on ingredients that support skin health, maintaining proper hydration, and protecting your skin from environmental stressors.</p>
+            
+            <h2>Building Your Morning Skincare Ritual</h2>
+            <img src="image/1.png" alt="Morning skincare routine with serums and moisturizers" style="width: 100%; border-radius: 12px; margin: 2rem 0;">
+            <p>Your morning skincare routine sets the foundation for glowing skin throughout the day. Start with a gentle cleanser that removes overnight buildup without stripping your skin's natural oils. Look for formulas with hydrating ingredients like hyaluronic acid or glycerin that maintain your skin's moisture barrier.</p>
+            
+            <p>After cleansing, apply a vitamin C serum—this powerhouse ingredient brightens the skin, reduces dark spots, and provides antioxidant protection against environmental damage. Vitamin C works best in the morning because it helps neutralize free radicals from UV exposure and pollution throughout the day. Choose a serum with at least 10% L-ascorbic acid for optimal results.</p>
+            
+            <p>Follow with a lightweight, hydrating moisturizer that contains SPF 30 or higher. Sun protection is non-negotiable for maintaining radiant skin—UV damage is one of the primary causes of premature aging, dark spots, and loss of radiance. Modern sunscreens are lightweight and can be worn comfortably under makeup, making them an essential part of any glowing skin routine.</p>
+            
+            <h2>The Power of Evening Skincare</h2>
+            <p>Evening is when your skin does its most important repair work, making your nighttime routine crucial for achieving that glow. Begin by thoroughly removing makeup and cleansing your face with a product suited to your skin type. Double cleansing—using an oil-based cleanser followed by a water-based one—ensures all impurities are removed, allowing your skin to breathe and regenerate.</p>
+            
+            <img src="image/3.png" alt="Evening skincare routine with retinol and night cream" style="width: 100%; border-radius: 12px; margin: 2rem 0;">
+            <p>Incorporate a treatment serum based on your skin's needs. Retinol is excellent for cell turnover and reducing fine lines, while niacinamide helps with oil control and pore refinement. For those with dry or sensitive skin, consider a hydrating serum with peptides or ceramides that support the skin barrier.</p>
+            
+            <p>Finish with a rich night cream or face oil that locks in moisture and provides nutrients while you sleep. Look for ingredients like squalane, jojoba oil, or shea butter that mimic your skin's natural lipids. The key is to create a protective barrier that allows your skin to repair itself overnight without losing moisture.</p>
+            
+            <h2>Weekly Treatments for Enhanced Radiance</h2>
+            <p>Beyond your daily routine, weekly treatments can significantly boost your skin's radiance. Exfoliation is essential for removing dead skin cells that can make your complexion look dull. Choose between chemical exfoliants like alpha-hydroxy acids (AHAs) or beta-hydroxy acids (BHAs), which work more gently than physical scrubs.</p>
+            
+            <img src="image/2.png" alt="Face mask treatment for glowing skin" style="width: 100%; border-radius: 12px; margin: 2rem 0;">
+            <p>Face masks are another powerful tool in your radiance arsenal. Hydrating masks with hyaluronic acid plump the skin and restore moisture, while brightening masks with vitamin C or niacinamide can help fade dark spots and even out skin tone. Use a mask once or twice a week, depending on your skin's needs and sensitivity.</p>
+            
+            <p>Don't forget about your eye area—the delicate skin around your eyes often shows signs of fatigue first. An eye cream with peptides, caffeine, or vitamin C can help reduce puffiness, dark circles, and fine lines, contributing to an overall more radiant appearance.</p>
+            
+            <h2>Lifestyle Factors That Support Glowing Skin</h2>
+            <p>While skincare products are essential, true radiance comes from within. Hydration is key—drinking plenty of water helps maintain your skin's moisture levels and supports overall skin health. Aim for at least eight glasses of water daily, and consider incorporating hydrating foods like cucumbers, watermelon, and leafy greens into your diet.</p>
+            
+            <p>Sleep quality directly impacts your skin's appearance. During deep sleep, your body produces human growth hormone, which helps repair and regenerate skin cells. Aim for 7-9 hours of quality sleep each night, and consider using a silk pillowcase to reduce friction and help maintain your skin's moisture barrier.</p>
+            
+            <p>Stress management is also crucial for radiant skin. High stress levels can trigger inflammation, breakouts, and accelerate aging. Incorporate stress-reducing activities like meditation, yoga, or gentle exercise into your routine. Your skin will thank you for the reduced cortisol levels.</p>
+            
+            <p>Remember, achieving glowing skin is a journey, not a destination. Consistency is more important than perfection—stick to your routine, be patient with results, and adjust as your skin's needs change. With the right products, proper care, and healthy lifestyle choices, you'll unlock that beautiful glow from within.</p>
+        `,
+        products: [
+            { name: "Vitamin C Brightening Serum", image: "image/4.png", description: "Potent 20% L-ascorbic acid formula that brightens skin and reduces dark spots" },
+            { name: "Hyaluronic Acid Hydrating Moisturizer", image: "image/5.png", description: "Lightweight gel-cream that locks in moisture for plump, dewy skin" },
+            { name: "Retinol Night Repair Serum", image: "image/6.png", description: "Advanced retinol formula that promotes cell turnover and smooths texture" }
+        ]
+    },
+    {
         id: 1,
         title: "Sustainable Fashion: The Future of Style",
         excerpt: "Discover how eco-friendly materials and ethical practices are reshaping the fashion industry for a better tomorrow.",
