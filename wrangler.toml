@@ -1,6 +1,6 @@
 name = "vibecart"
 compatibility_date = "2026-01-17"
 
-[site]
-bucket = "."
+[assets]
+directory = "."
 
