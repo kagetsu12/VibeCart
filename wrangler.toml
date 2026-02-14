@@ -6,7 +6,7 @@ directory = "."
 
 # Custom domain route
 routes = [
-    { pattern = "parcelandplate.top/*", zone_name = "parcelandplate.top" },
-    { pattern = "www.parcelandplate.top/*", zone_name = "parcelandplate.top" }
+    { pattern = "parcelnplate.top/*", zone_name = "parcelnplate.top" },
+    { pattern = "www.parcelnplate.top/*", zone_name = "parcelnplate.top" }
 ]
 
