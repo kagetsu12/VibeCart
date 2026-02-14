@@ -4,9 +4,3 @@ compatibility_date = "2026-01-17"
 [assets]
 directory = "."
 
-# Custom domain route
-routes = [
-    { pattern = "parcelandplate.top/*", zone_name = "parcelandplate.top" },
-    { pattern = "www.parcelandplate.top/*", zone_name = "parcelandplate.top" }
-]
-
