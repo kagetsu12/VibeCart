@@ -82,7 +82,7 @@ function createArticleCard(article) {
     const card = document.createElement('div');
     card.className = 'article-card';
     card.onclick = () => {
-        window.location.href = `article.html?id=${article.id}`;
+        window.location.href = `article.html?slug=${article.slug}`;
     };
     
     card.innerHTML = `

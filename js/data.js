@@ -55,6 +55,7 @@ const articles = [
     {
         id: 6,
         title: "Glow From Within: Skincare Routines for Radiant Skin",
+        slug: "glow-from-within-skincare-routines-for-radiant-skin",
         excerpt: "Discover the ultimate skincare routine that unlocks your natural radiance. From morning rituals to evening treatments, learn how to achieve that coveted glow from within.",
         category: "health",
         categoryName: "Health & Beauty",
@@ -107,6 +108,7 @@ const articles = [
     {
         id: 1,
         title: "Sustainable Fashion: The Future of Style",
+        slug: "sustainable-fashion-the-future-of-style",
         excerpt: "Discover how eco-friendly materials and ethical practices are reshaping the fashion industry for a better tomorrow.",
         category: "fashion",
         categoryName: "Fashion & Accessories",
@@ -149,6 +151,7 @@ const articles = [
     {
         id: 2,
         title: "Natural Skincare Routine for Glowing Skin",
+        slug: "natural-skincare-routine-for-glowing-skin",
         excerpt: "Learn how to create an effective skincare routine using natural ingredients that nourish and protect your skin.",
         category: "health",
         categoryName: "Health & Beauty",
@@ -196,6 +199,7 @@ const articles = [
     {
         id: 3,
         title: "Creating a Minimalist Home Garden",
+        slug: "creating-a-minimalist-home-garden",
         excerpt: "Transform your living space with simple, elegant garden designs that bring nature indoors and create a peaceful sanctuary.",
         category: "home",
         categoryName: "Home & Garden",
@@ -243,6 +247,7 @@ const articles = [
     {
         id: 4,
         title: "Budget-Friendly Travel Destinations for 2024",
+        slug: "budget-friendly-travel-destinations-for-2024",
         excerpt: "Explore stunning destinations that offer incredible experiences without breaking the bank, from hidden gems to off-season travel tips.",
         category: "travel",
         categoryName: "Travel & Accommodation",
@@ -288,6 +293,7 @@ const articles = [
     {
         id: 5,
         title: "Smart Financial Planning for Young Professionals",
+        slug: "smart-financial-planning-for-young-professionals",
         excerpt: "Essential financial strategies to build wealth, manage debt, and secure your financial future as you start your career journey.",
         category: "finance",
         categoryName: "Finance & Insurance",

@@ -1,10 +1,10 @@
 // Article detail page functionality
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const articleId = parseInt(urlParams.get('id'));
+    const articleSlug = urlParams.get('slug');
     
-    if (articleId) {
-        const article = articles.find(a => a.id === articleId);
+    if (articleSlug) {
+        const article = articles.find(a => a.slug === articleSlug);
         if (article) {
             displayArticle(article);
         } else {
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'index.html';
         }
     } else {
-        // No article ID, redirect to home
+        // No article slug, redirect to home
         window.location.href = 'index.html';
     }
     
